@@ -2,6 +2,7 @@
   "name": "2048-game-amish-p",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "author": {
     "name": "Amish Prajapati",
     "email": "avp5564@psu.edu",

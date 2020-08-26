@@ -1,7 +1,7 @@
 <template>
   <div class="gameBoard">
     <div>
-      <h1>VaporWave 2048</h1>
+      <h1>Vaporwave 2048</h1>
       <h1>Score: {{ gameScore }}</h1>
     </div>
     <div v-for="row in displayBoard" class="row" v-bind:key="row.key">
@@ -15,6 +15,7 @@
       </div>
     </div>
     <img class="statue" alt="David Statue" src="../assets/david.png" />
+    <img class="arrowKeys" alt="Use arrow keys to move blocks" src="../assets/arrow_keys.gif" />
   </div>
 </template>
 
@@ -447,6 +448,14 @@ export default {
   border-radius: 10px;
   border-style: solid;
   border-color: lightcyan;
+}
+
+.arrowKeys {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 50%;
+  opacity: 0.7;
 }
 
 .statue {
