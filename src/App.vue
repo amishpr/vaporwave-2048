@@ -17,7 +17,7 @@ export default {
 
 <style>
 html {
-  background-image: linear-gradient(lightcyan, lightpink);
+  background-image: linear-gradient(#86ede3, lightpink);
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

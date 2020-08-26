@@ -425,8 +425,8 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  height: 90vh;
+  width: 95vw;
 }
 
 .row {
